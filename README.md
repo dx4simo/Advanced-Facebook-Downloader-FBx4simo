@@ -56,8 +56,8 @@ Through this project, I practiced:
 Clone the repository:
 
 ```bash
-git clone https://github.com/IslamAbouelregal/Advanced-Videosfacebook-Downloader.git
-cd Advanced-Videosfacebook-Downloader
+git clone https://github.com/dx4simo/Advanced-Facebook-Downloader-FBx4simo.git
+cd Advanced-Facebook-Downloader-FBx4simo
 ```
 
 Install the required packages:
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 Run the application:
 
 ```bash
-python FB_downloader.py
+python FBx4simo_downloader.py
 ```
 
 ---
@@ -79,7 +79,7 @@ python FB_downloader.py
 After running the script, follow the instructions in the terminal:
 
 ```bash
-python FB_downloader.py
+python FBx4simo_downloader.py
 ```
 
 The downloaded files will be saved inside the `Videos` folder.
@@ -91,7 +91,7 @@ The downloaded files will be saved inside the `Videos` folder.
 ```text
 Advanced-Videosfacebook-Downloader
 │
-├── FB_downloader.py
+├── FBx4simo_downloader.py
 ├── requirements.txt
 ├── README.md
 ├── screenshots/
