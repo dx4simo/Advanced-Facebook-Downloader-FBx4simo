@@ -3,16 +3,7 @@
 A Python command-line practice project for downloading publicly available Facebook videos or reels using `yt-dlp`.
 
 This project was created as a learning project to improve my Python skills, especially working with command-line interfaces, external libraries, dependency handling, file management and user input.
-
----
-
-## Note
-
-Some of my older projects were transferred from my previous GitHub account to this new profile because the old account could not be recovered.
-
-My old account: https://github.com/dx4simo/Advanced-Facebook-Downloader-FBx4simo
-
----
+----------------------------
 
 ## Disclaimer
 
