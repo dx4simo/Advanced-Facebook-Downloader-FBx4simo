@@ -1,71 +1,149 @@
+# Facebook Media Downloader CLI
 
-# 🎬 Advanced Facebook Downloader (FBx4simo) v1.0.0
+A Python command-line practice project for downloading publicly available Facebook videos or reels using `yt-dlp`.
 
-This is a tool for download any Video or Reel from Facebook. It has may options for diferent qualities for videos and also mp4, mp3 and subtitles.
-Choose quality, MP4/MP3 output, and subtitles (SRT, soft or hard); it auto-installs deps (yt-dlp + portable FFmpeg), shows ASCII-safe colored progress, and saves to ./Videos.
+This project was created as a learning project to improve my Python skills, especially working with command-line interfaces, external libraries, dependency handling, file management and user input.
 
+---
 
+## Note
 
-## ✨ Features
+Some of my older projects were transferred from my previous GitHub account to this new profile because the old account could not be recovered.
 
-- 🎬 Download **single videos or Reels** from Facebook.
-- 🎚️ **Quality selector:** 360p / 480p / 720p / 1080p / Best available.
-- 🎞️ Always MP4 for video modes; 🎵 MP3 (192 kbps) for audio-only.
-- 📝 Subtitles: save SRT, use auto-generated when needed, embed soft subs, or hard-burn into video.
-- ⚙️ Auto-setup: installs/updates yt-dlp, fetches a portable FFmpeg into ./ffmpeg/ if missing.
-- 📊 ASCII-safe colored progress bars (works on CMD/PowerShell) + colored titles/paths.
-- 🏷️ Prints the video/Reel title before downloading.
-- 📁 Saves files to ./Videos/ (auto-created).
-- 🌐 Cross-platform: Windows / Linux / macOS.
+My old account: https://github.com/dx4simo/Advanced-Facebook-Downloader-FBx4simo
 
+---
 
-## 🛠️ Installation
+## Disclaimer
 
-Install FBx4simo:
+This project is for educational purposes only.
+Please use it only with content you own, have permission to download, or that is publicly available for legal download. Always respect copyright rules and platform terms of service.
+
+---
+
+## Features
+
+* Download Facebook videos and reels
+* Select video quality such as 360p, 480p, 720p, 1080p or best available
+* Save videos as MP4
+* Extract audio as MP3
+* Optional subtitle handling when available
+* Automatic folder creation for downloaded files
+* Colored command-line output
+* Progress display during download
+* Basic dependency setup using Python packages
+
+---
+
+## Skills Practiced
+
+Through this project, I practiced:
+
+* Python scripting
+* Command-line application structure
+* Working with external packages
+* Handling user input
+* File and folder management
+* Error handling basics
+* Using third-party tools such as `yt-dlp` and FFmpeg
+* Organizing a Python project for GitHub
+
+---
+
+## Technologies Used
+
+* Python
+* yt-dlp
+* FFmpeg
+* Colorama
+* PyFiglet
+
+---
+
+## Installation
+
+Clone the repository:
 
 ```bash
-  # 1) 📦 Clone the repo
-  git clone https://github.com/dx4simo/-Advanced-Facebook-Downloader-FBx4simo-v1.0.0
-  cd Advanced-Facebook-Downloader-FBx4simo
-  python FB4simo_downloader
-
-  ## Note: 🚀 First run will auto-install deps (yt-dlp, colorama, pyfiglet) and fetch a portable FFmpeg into ./ffmpeg/ if missing. 
+git clone https://github.com/IslamAbouelregal/Advanced-Videosfacebook-Downloader.git
+cd Advanced-Videosfacebook-Downloader
 ```
-    
-## Usage/Examples
+
+Install the required packages:
 
 ```bash
- python FB4simo_downloader
+pip install -r requirements.txt
 ```
 
+Run the application:
+
+```bash
+python FB_downloader.py
+```
+
+---
+
+## Usage
+
+After running the script, follow the instructions in the terminal:
+
+```bash
+python FB_downloader.py
+```
+
+The downloaded files will be saved inside the `Videos` folder.
+
+---
+
+## Project Structure
+
+```text
+Advanced-Videosfacebook-Downloader
+│
+├── FB_downloader.py
+├── requirements.txt
+├── README.md
+├── screenshots/
+│   ├── screenshot-1.png
+│   ├── screenshot-2.png
+│   └── screenshot-3.png
+│
+└── Videos/
+```
+
+---
 
 ## Screenshots
 
-<img width="752" height="401" alt="1" src="https://github.com/user-attachments/assets/5d4ee503-4414-444a-8476-635f1bcb6484" />
-<img width="752" height="401" alt="2" src="https://github.com/user-attachments/assets/38c04a09-704d-4beb-bd1e-bef533ae5b94" />
-<img width="752" height="401" alt="3" src="https://github.com/user-attachments/assets/20881959-6a7b-4561-8dbb-ed5e2fadf637" />
-<img width="752" height="401" alt="4" src="https://github.com/user-attachments/assets/4a853695-5262-42ab-8a2b-672139dc1a91" />
-<img width="752" height="401" alt="5" src="https://github.com/user-attachments/assets/23a30acb-1d55-4fa8-85c6-70c4a70cbd74" />
+Add your screenshots inside the `screenshots` folder and update the image paths below:
+
+![Screenshot 1](screenshots/screen1.png)
+![Screenshot 2](screenshots/screen2.png)
+![Screenshot 3](screenshots/screen3.png)
+![Screenshot 3](screenshots/screen4.png)
+![Screenshot 3](screenshots/screen5.png)
 
 
+---
 
+## What I Learned
 
+This project helped me understand how a Python script can interact with external tools and libraries.
+I also learned how to structure a small command-line project, manage files, handle user choices and make the terminal output easier to read.
 
-## Authors
+---
 
-- [@dx4simo](https://github.com/dx4simo)
+## Future Improvements
 
+* Improve error messages
+* Add a clearer menu system
+* Add more input validation
+* Create a simple graphical interface
+* Improve project structure using separate Python modules
 
-## Contributing
+---
 
-Contributions are always welcome!
+## Author
 
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-## Feedback
-
-If you have any feedback, please reach out to us at +201061508926
-
+**Islam Albadawy**
+Aspiring Software Developer 
